@@ -136,3 +136,37 @@ section p {
   }
 
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .wrapper {
+    padding-bottom: 1.15rem;
+  }
+
+  .img-flex {
+    width: 30%;
+    padding-left: 0;
+    padding-top: 1.5rem;
+    margin-left: .5rem;
+  }
+
+  .section-icon {
+    width: 20%;
+    float: right;
+    margin-top: .5rem;
+  }
+
+  .section-body {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+
+}
