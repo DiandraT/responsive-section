@@ -49,7 +49,7 @@ header {
   width: 49%;
   float: right;
   padding-right: 2rem;
-  padding-top: 1rem;
+  padding-top: 0;
 }
 
 .section-body {
@@ -85,11 +85,18 @@ section p {
   }
 
   .section-letter {
-    width: 49%;
+    width: 45%;
   }
 
-  img {
-    width: 42%;
+  .section-icon {
+    width: 45%;
+    float: right;
+    padding-right: 2rem;
+    padding-top: 0;
+  }
+
+  .section-body {
+    padding-left: .5rem;
   }
 
 }
@@ -144,12 +151,8 @@ section p {
     line-height: 1.5;
   }
 
-  .wrapper {
-    padding-bottom: 1.15rem;
-  }
-
   .img-flex {
-    width: 30%;
+    width: 35%;
     padding-left: 0;
     padding-top: 1.5rem;
     margin-left: .5rem;
@@ -158,7 +161,11 @@ section p {
   .section-icon {
     width: 20%;
     float: right;
-    margin-top: .5rem;
+    margin-top: 1.5rem;
+  }
+
+  img {
+    padding-bottom: 1rem;
   }
 
   .section-body {
